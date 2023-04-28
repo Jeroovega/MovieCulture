@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'lastica';
+    src: url('/archivos/lastica.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'impact';
+    src: url('/archivos/impact.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'helvetica';
+    src: url('/archivos/helvetica.otf') format('truetype');
+  }
+  
