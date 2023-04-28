@@ -1,4 +1,5 @@
 import React from 'react'
+import foto from "/archivos/m2.png"
 
 export const Footer = () => {
     return (
@@ -6,7 +7,7 @@ export const Footer = () => {
             <div className='flex justify-between max-lg:flex-col max-lg:justify-center'>
                 <div className='flex flex-col max-lg:items-center'>
                     <div className='flex items-center gap-4'>
-                        <img src='/archivos/m2.png' className='max-lg:hidden w-24 h-24' />
+                        <img src={foto} className='max-lg:hidden w-24 h-24' />
                         <h2 className='font-titulo text-2xl'><span className='text-[#ff0f0f] font-semibold'>Movie</span>Culture</h2>
                     </div>
                     <p className='mt-2 font-otromas max-lg:hidden'>*Las películas trabajan con su nombre original</p>
