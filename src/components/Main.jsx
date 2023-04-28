@@ -85,7 +85,7 @@ export const Main = ({ director, añoPelicula, nombrePelicula, poster, generarId
 
 
     return (
-        <div className='h-[707px] max-lg:h-[100vh] flex flex-col items-center'>
+        <div className='h-[707px] max-lg:h-[46rem] flex flex-col items-center'>
             <div className='flex  max-lg:items-center max-lg:flex-col-reverse justify-around w-full h-full'>
                 <div className=' flex items-center'>
                     <div className={`flex flex-col ${mostrarA ? "" : "hidden"} items-center max-lg:h-72 h-96 justify-between `}>
