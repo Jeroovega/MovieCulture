@@ -45,7 +45,7 @@ function App() {
   }, [generarId]);
 
   return (
-    <div className="h-[100vh] text-white bg-[url('/archivos/collage.png')] bg-no-repeat bg-auto bg-[#000123] bg-left"
+    <div className="h-full text-white bg-[url('/archivos/collage.png')] bg-no-repeat bg-auto bg-[#000123] bg-left"
     style={{
       backgroundPositionX: "-400px"
     }}>
